@@ -12,11 +12,11 @@ class Program
 
         for (int i = segundos; i >= 0; i--) // Função "para" a variavel 'i' igual ao valor de "segundos", continua enquanto 'i' for maior ou igual a 0, e diminui 'i' em 1 a cada fez que rodar.
         {
-            Console.Clear(); // limpa o que estava escrito anteriormente
+            //Console.Clear(); // limpa o que estava escrito anteriormente
             Console.WriteLine($"Tempo restante: {i} segundos"); // Imprime na tela o tempo restante 
             Thread.Sleep(1000); // Pausa por 1 segundo
         }
-		Console.Clear(); // limpa o que estava escrito anteriormente
+		//Console.Clear(); // limpa o que estava escrito anteriormente
         Console.WriteLine("Tempo esgotado!"); // Imprime na tela que o tempo acabou
     }
 }
