@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cronômetro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5e52f01fbcbeb78786165a7af6a9e7b4fa7768a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2d733c896b39da78a3290347babf5eddd05029d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cronômetro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cronômetro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
