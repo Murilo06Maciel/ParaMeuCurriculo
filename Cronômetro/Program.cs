@@ -5,6 +5,7 @@ class Program
 {
     static void Main()
     {
+        int segundos;
         Console.WriteLine("Escolha uma opção:");
         Console.WriteLine("1 - Temporizador (contagem regressiva)");
         Console.WriteLine("2 - Cronômetro (contagem progressiva)");
@@ -13,7 +14,7 @@ class Program
         {
         case 1:
         Console.Write("Insira o número de segundos para o temporizador: "); // Imprime na tela para o usuário escolher a quantidade de segundos
-        int segundos = int.Parse(Console.ReadLine()); // Lê a variavel inteira "segundos"
+        segundos = int.Parse(Console.ReadLine()); // Lê a variavel inteira "segundos"
 
         for (int i = segundos; i >= 0; i--) // Função "para" a variavel 'i' igual ao valor de "segundos", continua enquanto 'i' for maior ou igual a 0, e diminui 'i' em 1 a cada fez que rodar.
         {
@@ -28,13 +29,13 @@ class Program
 
         case 2:
         Console.Write("Insira o número de segundos para o cronômetro: "); // Imprime na tela para o usuário escolher a quantidade de segundos
-        int segundos = int.Parse(Console.ReadLine()); // Lê a variavel inteira "segundos"
+        segundos = int.Parse(Console.ReadLine()); // Lê a variavel inteira "segundos"
 
-        for (int i = 0; segundos => i; i++) // Função "para" a variavel 'i' igual ao valor de "segundos", continua enquanto 'i' for maior ou igual a 0, e diminui 'i' em 1 a cada fez que rodar.
+        for (int i = 0; segundos >= i; i++) // Função "para" a variavel 'i' igual ao valor de "segundos", continua enquanto 'i' for maior ou igual a 0, e diminui 'i' em 1 a cada fez que rodar.
         {
             Console.Clear(); // limpa o que estava escrito anteriormente
-            Console.WriteLine($"Cronômetro iniciado para {segundos} segundos..."); // Imprime na tela que o cronômetro vai iniciar em tantos segundos
-            Console.WriteLine($"Tempo restante: {i} segundos"); // Imprime na tela o tempo restante 
+            Console.WriteLine($"Cronômetro iniciado para até {segundos} segundos..."); // Imprime na tela que o cronômetro vai iniciar em tantos segundos
+            Console.WriteLine($"Tempo: {i} segundos"); // Imprime na tela o tempo restante 
             Thread.Sleep(1000); // Pausa por 1 segundo
         }
 		Console.Clear(); // limpa o que estava escrito anteriormente
