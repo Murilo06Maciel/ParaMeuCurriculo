@@ -8,10 +8,28 @@
 
 ## Etapas implementadas
 - Informar se ele quer um cronômetro ou um temporizador
+
+<img src="/imagens do programa/opção inicial.png">
+
 - Pedir para o usuário escolher a quantidade de segundos
+
+<img src="/imagens do programa/programa inicio.png">
+
+##### Caso cronômetro
 - O cronômetro irá começar a contar a partir de 0 até o número informado
+
+<img src="/imagens do programa/cronometro.png">
+<img src="/imagens do programa/cronometro 3.png">
+
+##### Caso temporizador
 - O temporizador a partir do número informado, irá começar a contar até chegar a 0
-- Independente da escolha, quando chegar ao fim aparece tempo esgotado
+
+<img src="/imagens do programa/programa sem console clear.png">
+<img src="/imagens do programa/programa com console clear.png">
+
+- **Independente** da escolha, quando chegar ao fim aparece tempo esgotado
+
+<img src="/imagens do programa/tempo esgotado.png">
 
 ## Backlog
 - Poder colocar minutos e ele funcoinar
