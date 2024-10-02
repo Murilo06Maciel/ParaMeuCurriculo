@@ -7,6 +7,9 @@
 - Linguagem utilizada: C#
 
 ## Etapas implementadas
+- Informar se ele qual unidade de tempo
+<img src="/imagens do programa/inicio.png">
+
 - Informar se ele quer um cronômetro ou um temporizador
 
 <img src="/imagens do programa/opção inicial.png">
@@ -26,13 +29,14 @@
 
 <img src="/imagens do programa/programa sem console clear.png">
 <img src="/imagens do programa/programa com console clear.png">
+<img src="/imagens do programa/horas.png">
+<img src="/imagens do programa/min.png">
 
 - **Independente** da escolha, quando chegar ao fim aparece tempo esgotado
 
 <img src="/imagens do programa/tempo esgotado.png">
 
 ## Backlog
-- Poder colocar minutos e ele funcoinar
 - Opção de Pausa/Continuação
 - Contagem em Formato de Relógio (hh:mm)
 
